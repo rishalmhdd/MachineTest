@@ -1,0 +1,60 @@
+/* main.css */
+
+/* Reset base */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Utility spacing */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.section {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* Error message */
+.error-message {
+  color: #d32f2f;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+/* Success message */
+.success-message {
+  color: #2e7d32;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+/* Page header */
+.page-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+/* Responsive layout helpers */
+@media (max-width: 768px) {
+  .container {
+    padding: 8px;
+  }
+}
